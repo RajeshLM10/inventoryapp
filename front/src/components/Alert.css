@@ -1,0 +1,10 @@
+/* Alert.css */
+.alerts-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .alert-item {
+    color: red; /* Set the text color to red */
+  }
+  

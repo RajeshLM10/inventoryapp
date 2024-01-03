@@ -1,0 +1,30 @@
+/* src/components/Home.css */
+
+.home-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  /* Box-style layout */
+  .inventory-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .inventory-box p {
+    margin: 5px 0;
+  }
+  

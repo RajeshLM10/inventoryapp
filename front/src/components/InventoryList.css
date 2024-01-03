@@ -1,0 +1,64 @@
+/* src/components/InventoryList.css */
+/* src/components/InventoryList.css */
+
+.inventory-list-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.inventory-table th, .inventory-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.inventory-table th {
+  background-color: #f2f2f2;
+}
+
+.inventory-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.inventory-list-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #007bff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .edit-button {
+    margin-right: 8px;
+  }
+  
+  /* Style the cancel button differently */
+  .cancel-button {
+    background-color: #ccc;
+    color: #333;
+    margin-right: 8px;
+  }
+  /* Add more styles as needed */
+  

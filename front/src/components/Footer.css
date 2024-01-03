@@ -1,0 +1,34 @@
+/* src/components/Footer.css */
+
+.footer-container {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%; /* Adjust the maximum width of the footer */
+  margin: 0 auto; /* Center the footer horizontally */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left-content,
+.right-content {
+  text-align: left;
+  flex: 1; /* Distribute available space equally */
+}
+
+.right-content {
+  text-align: right;
+}
+
+p {
+  margin: 10px 0;
+}
+
+/* Add more styles as needed */
